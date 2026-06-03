@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blog Assombrado</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite|Aldrich">
+  <link rel="stylesheet" href="estiloss.css">
+  <link rel="shortcut icon" href="imgs/favicon.png">
+</head>
+<body>
+  <!--<div id="header">-->
+  <header>
+    <h1>Blog Assombrado</h1>
+    <h2>Notícias e reportagens sobre o desconhecido</h2>
+    <!--<div id="navigation">-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicial</a></li>
+        <li><a href="#ovnis.html">UFOlogia</a></li>
+        <li><a href="#fantasmas.html">Fantasmas</a></li>
+        <li><a href="#lendas.html">Lendas</a></li>
+        <li><a href="#lugares-misteriosos.html">Lugares Misteriosos</a></li>
+        <li><a href="#especiais.html">Especiais</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- não remova a class="desaparecido" porque ela está sendo usada pra
+         esconder este elemento até o vídeo acabar (tem uma regra CSS para
+         ocultar quem tem .desaparecido)
+    <div id="conteudo-principal" class="desaparecido">-->
+  <main class="desaparecido">
+    <!-- opa, <section> já é um elemento semântico. Dica: podemos
+           dividir a página em 3 seções, e esta é uma delas -->
+    <section id="tags">
+      <h1>Nuvem de <em>tags</em></h1>
+      <mark class="tag-3">UFO</mark>
+      <mark class="tag-1">OVNI</mark>
+      <mark class="tag-2">Avistamentos</mark>
+      <mark class="tag-1">Contato de primeiro grau</mark>
+      <mark class="tag-2">Assombrações</mark>
+      <mark class="tag-3">Local mal-assombrado</mark>
+      <mark class="tag-1">Saci</mark>
+    </section>
+
+    <section id="posts-principais">
+      <h1>Principais Postagens</h1>
+      <article class="post">
+        <img src="imgs/arvores.jpg" alt="">
+        <h2 class="titulo">
+          Conheça a Enigmática "Crooked Forest": Centenas de Árvores
+          em uma Floresta Foram Entortadas por "Forças Misteriosas", na Polônia?
+        </h2>
+        <time class="time" datetime="2017-05-09">09 de maio de 2017</time>
+      </article>
+      <article class="post">
+        <img src="imgs/ursa.jpg" alt="">
+        <h2 class="titulo">
+          O Mistério de Szenja: Uma Ursa Polar Morreu de "Coração Partido"
+          ao ser Separada de Sua Companheira no SeaWorld, nos Estados Unidos?
+        </h2>
+        <span class="time" datetime="2017-05-09">07 de maio de 2017</span>
+      </article>
+    </section>
+
+    <section id="ultimas-postagens">
+      <h1>Últimas Postagens</h1>
+      <!-- class="palavra1 palavra2" quer dizer que o elemento possui DUAS
+             CLASSES. Portanto, uma regra CSS .palavra1 seleciona ele, bem
+             como uma .palavra2 -->
+      <article class="post novidade">
+        <time datetime="2017-05-09">09/05/2017</time>
+        <h2 class="titulo">
+          O Projeto Manhatan e a Construção das
+          Primeiras Bombas Atômicas
+        </h2>
+      </article>
+      <article class="post novidade">
+        <time datetime="2017-05-09">09/05/2017</time>
+        <h2 class="titulo">
+          A Misteriosa "Vulture Stone": Um "Pilar de
+          Pedra" Provocou um Verdadeiro Caos na
+          Terra Há 13 Mil Anos?
+        </h2>
+      </article>
+      <article class="post">
+        <time datetime="2017-05-08">08/05/2017</time>
+        <h2 class="titulo">
+          O "Fantasma de um Homem" Subindo uma Escadaria
+          Apareceu em uma Mansão "Mal-Assombrada" do Século XVII, na
+          Inglaterra?
+        </h2>
+      </article>
+      <article class="post">
+        <time datetime="2017-04-16">16/04/2017</time>
+        <h2 class="titulo">
+          Sereias: Lenda, Fotos, Vídeos, Relatos e
+          Análises. Será que elas existem?
+        </h2>
+      </article>
+    </section>
+
+    <!--<div id="footer">-->
+    <footer>
+      <img class="logo-rodape" src="imgs/logo-assombrado.png" alt="Logo do canal do Youtube Assombrado">
+      <p class="texto-rodape">
+        © O nome "Assombrado", a logomarca, a vinheta e as imagens são todos
+        propriedade do <a href="https://www.youtube.com/user/AssombradoBlog">
+          Canal Assombrado</a> do Youtube e do blog
+        <a href="http://assombrado.com.br">AssombradO.com.br</a>
+      </p>
+    </footer>
+  </main>
+
+  <!-- não remova a class="backdrop" porque ela está sendo usada para
+         estilizar este elemento no CSS e usada também no JavaScript para ocultar
+         o vídeo depois que ele acaba -->
+  <aside id="lateral" class="backdrop">
+    <video src="videos/vinheta.mp4" autoplay muted>
+    </video>
+  </aside>
+  <button id="unmute">🔉</button>
+
+  <script>
+    // faz o vídeo desaparecer de leve assim que terminar
+    let tempo = 1100;  // 11s, duração do vídeo
+    setTimeout(() => {
+      // faz o vídeo desaparecer colocando a classe .desaparecido
+      document.querySelector('.backdrop').classList.add('desaparecido');
+      // faz o conteúdo principal surgir, retirando a classe .desaparecido
+      document.querySelector('main').classList.remove('desaparecido');
+    }, tempo);
+
+
+    // no clique do botão #unmute, tira o atributo muted to video
+    document.querySelector('#unmute').addEventListener('click', (e) => {
+      document.querySelector('.backdrop video').muted = false;
+      e.currentTarget.classList.add('desaparecido');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+p {
+    color: #FF1100;
+}
+.mario {
+    size: 10px;
+    transform: rotate(-0deg);
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    background-image: url(Reino\ do\ Cogumelo\ fMario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+nav {
+    padding: 0;
+}
+
+header ul {
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+  background-color: rgb(14, 0, 204);
+}
+
+header {
+  background-color: rgba(229, 37, 33);
+  box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+  padding-top: 1em;
+  text-align: center;
+}
+header h1 {
+    color: white;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
