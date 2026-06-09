@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@1,347&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
 
 @media (max-width: 768px) {
 
@@ -9,9 +11,17 @@
         display: block;
     }
 
-}/* aparentemente isso serve para deixar
+}
+/* aparentemente isso serve para deixar
 o texto sempre ativo quando no celular*/
 
+
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    
+}
 
 body {
     background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario);
@@ -23,25 +33,36 @@ body {
     padding-top: 100px;
 }
 
+h2 {
+    font-family: 'Fredoka', sans-serif;
+}
+
 .personagens {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
-    margin-top: 5%;
+    margin-top: -5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-top: 40px;
+    justify-items: center;
 }
 
 .mario img {
     width: 200px;
+    position: static;
+    padding-bottom: 65px;
 }
 
 .luigi img {
     width: 180px;
+    position: static;
+    padding-bottom: 64px;
 }
 
 .peach img{
     width: 300px;
+    position: static;
 }
 
 .TituloPag {
@@ -72,6 +93,7 @@ header h1 {
     color: white;
 }
 
+
 header li {
   list-style: none;
   display: inline-block;
@@ -89,6 +111,23 @@ header li a:hover {
     color: whitesmoke;
 }
 
-nav {
-    padding: 0;
+nav ul {
+
+    border-top: 1px solid gainsboro;
+    opacity: 0.9;
+}
+
+img {
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul:hover {
+    height: 30px;
+}
+
+ul:hover li {
+    align-items: center;
 }
