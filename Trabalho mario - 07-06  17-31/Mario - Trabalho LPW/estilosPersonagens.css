@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 @media (max-width: 768px) {
 
@@ -130,4 +130,14 @@ ul:hover {
 
 ul:hover li {
     align-items: center;
+}
+
+p {
+    font-family:'Comic Neue';
+    font-size: 19px;
+}
+
+p strong {
+    font-size: 35px;
+
 }
