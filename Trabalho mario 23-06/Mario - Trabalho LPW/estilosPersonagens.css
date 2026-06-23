@@ -1,0 +1,155 @@
+/* Fonte do google Fonts para o Título da pag. Font famili 'Alumni Sans SC */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@1,347&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@media (max-width: 768px) {
+
+    .descricao {
+        display: block;
+    }
+
+}
+/* aparentemente isso serve para deixar
+o texto sempre ativo quando no celular*/
+
+
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    
+}
+
+body {
+    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 94px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.personagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: -5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-top: 40px;
+    justify-items: center;
+    text-align: justify;
+}
+
+.mario img {
+    width: 200px;
+    position: static;
+    padding-bottom: 65px;
+
+}
+
+.luigi img {
+    width: 180px;
+    position: static;
+    padding-bottom: 64px;
+}
+
+.peach img{
+    width: 300px;
+    position: static;
+}
+
+.bowser img {
+    width: 400px;
+    position: static;
+}
+
+.TituloPag {
+    font-family: "Science Gothic";
+    margin-bottom: -10px;
+    font-size: 40px;
+    margin-top: 2px;
+    align-items: center;
+}
+
+header ul {
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+  background-color: rgb(14, 0, 204);
+}
+
+header {
+    background-color: rgba(229, 37, 33);
+    box-shadow: 2px 10px 10px rgba(199, 2, 2, 0.35);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+}
+
+
+header li { /* Temos que arrumar essa linha branca entre o título e esse menu */
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+
+header a {
+    color: #FF1100;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: whitesmoke;
+}
+
+li a{
+    font-size: 18px;
+}
+
+nav ul {
+
+    border-top: 1px solid gainsboro;
+    opacity: 0.9;
+}
+
+img {
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul:hover {
+    height: 30px;
+}
+
+ul:hover li {
+    align-items: center;
+}
+
+p {
+    font-family:'Comic Neue';
+    font-size: 19px;
+}
+
+p strong {
+    font-size: 35px;
+
+}
