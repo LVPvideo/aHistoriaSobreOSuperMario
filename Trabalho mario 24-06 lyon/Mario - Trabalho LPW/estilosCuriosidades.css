@@ -1,0 +1,119 @@
+/* Fonte do google Fonts para o Título da pag. Font famili 'Alumni Sans SC */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@1,347&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body {
+    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 80px;
+    padding-top: 100px;
+}
+
+.TituloPag {
+    font-family: "Science Gothic";
+    margin-bottom: -10px;
+    font-size: 40px;
+    margin-top: 2px;
+    align-items: center;
+}
+
+header ul {
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+  background-color: rgb(14, 0, 204);
+}
+
+header {
+  background-color: rgba(229, 37, 33);
+  box-shadow: 2px 10px 10px rgba(199, 2, 2, 0.35);
+  text-align: center;
+  position: fixed;
+  top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+}
+
+.passaporte { /* essa é a div do mario com a bandeira da itália atrás segurndo um passaporte */
+    width: 500px;
+    align-self: right;
+    padding-left: 20px;
+}
+
+
+header li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+
+header a {
+    color: #FF1100;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: whitesmoke;
+}
+
+li a{
+    font-size: 18px;
+}
+
+nav ul {
+
+    border-top: 1px solid gainsboro;
+    opacity: 0.9;
+}
+
+img {
+    padding-bottom: 35px;
+}
+
+
+ul:hover {
+    height: 30px;
+}
+
+ul:hover li {
+    align-items: center;
+}
+
+.curiosidades h2{
+    color:rgb(167, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.651);
+    font-size: 40px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.curiosidades {
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.curiosidades p{
+    color:rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.curiosidades i{ 
+      text-align: left; 
+      font-size: 21px;
+      color: rgb(92, 89, 89);
+}
