@@ -1,0 +1,136 @@
+/* Fonte do google Fonts para o Título da pag. Font famili 'Alumni Sans SC */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@1,347&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 108px;
+    padding-top: 180px;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(167, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.TituloPag {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    background-color: rgb(167, 0, 0); 
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    background-color: rgb(14, 0, 204);
+    list-style: none;
+}
+
+header li {
+    margin: 0 20px;
+}
+
+header a {
+    color: rgb(167, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Cambria', 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ffffff;
+}
+
+.container-tabela {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.tabela-um, .tabela-dois {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #e3f2fd;
+    border: 4px solid #0e00cc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+caption {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0e00cc; 
+    padding: 12px;
+    text-align: center;
+}
+
+thead th, thead td {
+    background-color: #ff4d4d; 
+    color: #000000; 
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #0e00cc;
+}
+
+tbody td {
+    padding: 15px;
+    color: #1a237e; 
+    font-size: 16px;
+    border: 1px solid #b0bec5; 
+    vertical-align: middle;
+    background-color: #e3f2fd;
+}
+
+tbody tr:hover {
+    background-color: #bbdefb;
+    cursor: pointer;
+}
+
+.container-tabela table img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #0e00cc; 
+    border-radius: 4px;
+}
+
+.textinho {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Science Gothic', sans-serif;
+    margin: 40px auto; 
+    max-width: 800px;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
