@@ -5,9 +5,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+@media (min-width: 1600px) {
+        body {
+            font-size: 20px;
+            background-position: center 108px;
+        }
+        
+
+    }
+
+    @media (max-width: 1230px) {
+        
+    }
+
+    @media (max-width: 660px) {
+        img{
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1599px) {
+        body {
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        body {
+            font-size: 16px;
+        }
+        .impar {
+            display: flex;
+            flex-direction: column;
+        }
+        .par {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        body {
+            font-size: 15px;
+        }
+        .impar {
+            display: flex;
+            flex-direction: column;
+        }
+        .par {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+    }
+
+    @media (max-width: 560px) {
+        img{
+            width: 75%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav a {
+            padding: 0.8rem;
+            width: 100%;
+            text-align: center;
+        }
+        .impar {
+            display: flex;
+            flex-direction: column;
+        }
+        .par {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
 
 body {
-    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario);
+    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -148,3 +231,43 @@ ul:hover li {
    
 
 }
+
+  @media (min-width: 1600px) {
+        body {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1599px) {
+        body {
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        body {
+            font-size: 16px;
+        }
+    }
+
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        body {
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav a {
+            padding: 0.8rem;
+            width: 100%;
+            text-align: center;
+        }
+    }
