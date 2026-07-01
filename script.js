@@ -6,7 +6,7 @@ const originais = Array.from(imagens, img => img.getAttribute("src"));
 botao.addEventListener("click", () => {
 
     imagens.forEach(img => {
-        img.src = "../imagens/among-us-twerk.gif";
+        img.src = "imagens/among-us-twerk.gif";
     });
 
     setTimeout(() => {

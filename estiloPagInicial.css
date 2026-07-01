@@ -74,7 +74,7 @@
 
 
 body {
-    background-image: url(../imagens/Reino\ do\ Cogumelo\ fMario.png);
+    background-image: url(imagens/Reino\ do\ Cogumelo\ fMario.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -177,7 +177,7 @@ li a{
 .transicao {
     margin-top: 10px;
     height: 40px;
-    background-image: url("../imagens/Inicio\ textos.png");
+    background-image: url("imagens/Inicio\ textos.png");
     background-repeat: repeat-x;
     background-size: auto 40px;
 
@@ -187,7 +187,7 @@ li a{
     margin-top: 0;
     rotate: 180deg;
     height: 40px;
-    background-image: url("../imagens/Inicio\ textos.png");
+    background-image: url("imagens/Inicio\ textos.png");
     background-repeat: repeat-x;
     background-size: auto 40px;
 
